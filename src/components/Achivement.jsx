@@ -10,7 +10,7 @@ const Achivement = () => {
           of whom have expressed nothing <br /> but positive feedback about our
           services. Take a moment to see for yourself.
         </p>
-        <div className="flex gap-6">
+        <div className="grid grid-cols-4 gap-6">
           <img className="" src="../../public/images/clutch.jpg" alt="" />
           <img
             className="rounded-lg"

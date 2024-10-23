@@ -2,6 +2,7 @@ import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Achivement from "./components/Achivement";
 import Hero from "./components/Hero";
+import Inquiry from "./components/Inquiry";
 import Nav from "./components/Nav";
 import Newsletter from "./components/Newsletter";
 import Projects from "./components/Projects";
@@ -35,6 +36,7 @@ function App() {
         <Projects></Projects>
         <Achivement></Achivement>
         <Newsletter></Newsletter>
+        <Inquiry></Inquiry>
       </div>
     </>
   );
