@@ -2,6 +2,7 @@ import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
+import Projects from "./components/Projects";
 import Review from "./components/Review";
 import Services from "./components/Services";
 import Work from "./components/Work";
@@ -29,6 +30,7 @@ function App() {
         <AboutUs></AboutUs>
         <Work></Work>
         <Review></Review>
+        <Projects></Projects>
       </div>
     </>
   );

@@ -6,7 +6,7 @@ import "./Review.css";
 const Review = () => {
   var settings = {
     dots: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     infinite: true,
     speed: 500,
