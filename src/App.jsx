@@ -1,7 +1,9 @@
 import "./App.css";
 import AboutUs from "./components/AboutUs";
+import Achivement from "./components/Achivement";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
+import Newsletter from "./components/Newsletter";
 import Projects from "./components/Projects";
 import Review from "./components/Review";
 import Services from "./components/Services";
@@ -31,6 +33,8 @@ function App() {
         <Work></Work>
         <Review></Review>
         <Projects></Projects>
+        <Achivement></Achivement>
+        <Newsletter></Newsletter>
       </div>
     </>
   );
