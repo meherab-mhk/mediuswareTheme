@@ -33,19 +33,21 @@ const AboutUs = () => {
               <h3 className="sora font-semibold text-3xl mb-2 text-[#072B4A]">
                 800+
               </h3>
-              <p className="sora text-[#072B4A] text-md">Projects Completed</p>
+              <p className="sora text-[#072B4A] text-base">
+                Projects Completed
+              </p>
             </div>
             <div className="bg-[#F1F5F9] p-4 rounded-xl w-[243px]">
               <h3 className="sora font-semibold text-3xl mb-2 text-[#072B4A]">
                 100+
               </h3>
-              <p className="sora text-[#072B4A] text-md">Team Members</p>
+              <p className="sora text-[#072B4A] text-base">Team Members</p>
             </div>
             <div className="bg-[#F1F5F9] p-4 rounded-xl w-[243px]">
               <h3 className="sora font-semibold text-3xl mb-2 text-[#072B4A]">
                 1000+
               </h3>
-              <p className="sora text-[#072B4A] text-md">Happy Customers</p>
+              <p className="sora text-[#072B4A] text-base">Happy Customers</p>
             </div>
           </div>
           <div className="flex gap-6">

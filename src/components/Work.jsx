@@ -19,7 +19,7 @@ const Work = () => {
           <h3 className="sora text-2xl font-semibold text-[#072B4A] mt-[46px]">
             Planning
           </h3>
-          <p className="sora text-md font-normal text-[#072B4A] mt-3">
+          <p className="sora text-base font-normal text-[#072B4A] mt-3">
             Collaborate with clients to create a detailed project plan.
           </p>
         </div>
@@ -28,7 +28,7 @@ const Work = () => {
           <h3 className="sora text-2xl font-semibold text-[#072B4A] mt-[46px]">
             Defining
           </h3>
-          <p className="sora text-md font-normal text-[#072B4A] mt-3">
+          <p className="sora text-base font-normal text-[#072B4A] mt-3">
             Document project requirements and specifications.
           </p>
         </div>
@@ -37,7 +37,7 @@ const Work = () => {
           <h3 className="sora text-2xl font-semibold text-[#072B4A] mt-[46px]">
             Designing
           </h3>
-          <p className="sora text-md font-normal text-[#072B4A] mt-3">
+          <p className="sora text-base font-normal text-[#072B4A] mt-3">
             Develop and refine user-friendly prototypes and wireframes.
           </p>
         </div>
@@ -46,7 +46,7 @@ const Work = () => {
           <h3 className="sora text-2xl font-semibold text-[#072B4A] mt-[46px]">
             Coding & Implement
           </h3>
-          <p className="sora text-md font-normal text-[#072B4A] mt-3">
+          <p className="sora text-base font-normal text-[#072B4A] mt-3">
             Develop the software using best practices and latest technologies.
           </p>
         </div>
@@ -55,7 +55,7 @@ const Work = () => {
           <h3 className="sora text-2xl font-semibold text-[#072B4A] mt-[46px]">
             Testing
           </h3>
-          <p className="sora text-md font-normal text-[#072B4A] mt-3">
+          <p className="sora text-base font-normal text-[#072B4A] mt-3">
             Rigorously test for functionality, performance, and security.
           </p>
         </div>
@@ -64,7 +64,7 @@ const Work = () => {
           <h3 className="sora text-2xl font-semibold text-[#072B4A] mt-[46px]">
             Integration
           </h3>
-          <p className="sora text-md font-normal text-[#072B4A] mt-3">
+          <p className="sora text-base font-normal text-[#072B4A] mt-3">
             Integrate components, conduct final testing, and provide support.
           </p>
         </div>

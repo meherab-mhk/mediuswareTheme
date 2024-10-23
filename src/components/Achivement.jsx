@@ -11,23 +11,10 @@ const Achivement = () => {
           services. Take a moment to see for yourself.
         </p>
         <div className="grid grid-cols-4 gap-6">
-          <img className="" src="../../public/images/clutch.jpg" alt="" />
-          <img
-            className="rounded-lg"
-            src="../../public/images/upwork.jpg"
-            alt=""
-          />
-
-          <img
-            className="rounded-lg"
-            src="../../public/images/google.jpg"
-            alt=""
-          />
-          <img
-            className="rounded-lg"
-            src="../../public/images/swd.jpg"
-            alt=""
-          />
+          <img className="rounded-lg" src="../../images/clutch.jpg" alt="" />
+          <img className="rounded-lg" src="../../images/upwork.jpg" alt="" />
+          <img className="rounded-lg" src="../../images/google.jpg" alt="" />
+          <img className="rounded-lg" src="../../images/swd.jpg" alt="" />
         </div>
       </div>
     </div>

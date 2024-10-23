@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Achivement from "./components/Achivement";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Inquiry from "./components/Inquiry";
 import Nav from "./components/Nav";
@@ -37,6 +38,7 @@ function App() {
         <Achivement></Achivement>
         <Newsletter></Newsletter>
         <Inquiry></Inquiry>
+        <Footer></Footer>
       </div>
     </>
   );
