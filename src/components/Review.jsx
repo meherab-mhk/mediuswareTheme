@@ -43,13 +43,14 @@ const Review = () => {
   };
   return (
     <div className="bg-[#F0F8FF]">
-      <div className="w-[1440px] mx-auto py-[124px]">
-        <h3 className="text-center sora font-semibold text-5xl text-[#072B4A] mb-6">
+      <div className="lg:w-[1440px] mx-5 lg:mx-auto py-8 lg:py-[124px]">
+        <h3 className="text-center sora font-semibold text-xl lg:text-5xl text-[#072B4A] mb-4 lg:mb-6">
           What the People <span className="text-[#2EB8A2]">Are Saying</span>{" "}
         </h3>
-        <p className="text-center sora text-[#334155] text-lg font-normal mb-16">
+        <p className="text-center sora text-[#334155] text-sm lg:text-lg font-normal mb-6 lg:mb-16">
           Explore success stories from clients across a range of industries,
-          spanning from techpreneurs and start- <br />
+          spanning from techpreneurs and start-{" "}
+          <br className="hidden lg:block" />
           ups to established enterprises.
         </p>
         {/* slider */}

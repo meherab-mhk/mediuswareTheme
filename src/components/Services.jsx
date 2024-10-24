@@ -3,8 +3,8 @@ import Service from "./Service";
 
 const Services = () => {
   return (
-    <div className="py-[124px]">
-      <h3 className="text-center sora font-semibold text-5xl text-[#072B4A] mb-16">
+    <div className="py-8 lg:py-[124px]">
+      <h3 className="text-center sora font-semibold text-xl lg:text-5xl text-[#072B4A] mb-6 lg:mb-16">
         Things We’re <span className="text-[#2EB8A2]">Good At</span>{" "}
       </h3>
       <Service></Service>

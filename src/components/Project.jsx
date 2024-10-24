@@ -45,148 +45,148 @@ const Project = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-        <div className="rounded-xl bg-[#F0F8FF] w-[463px]">
+        <div className="rounded-xl bg-[#F0F8FF] w-[350px] lg:w-[463px]">
           <figure>
             <img
-              className="rounded-xl h-[320px]"
+              className="rounded-xl lg:h-[320px]"
               src="../../images/website.jpg"
               alt=""
             />
           </figure>
-          <div className="card-body p-6">
-            <h2 className="card-title sora font-semibold text-2xl text-[#072B4A] mb-4">
+          <div className="card-body p-4 lg:p-6">
+            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               GoThruhike Website Redesign
             </h2>
-            <p className="sora font-normal text-base text-[#334155] mb-6">
+            <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
               Thruhike is the ultimate platform for discovering and sharing your
               favorite places and products. Our mission is to celebrate local
               business and inspire.
             </p>
             <div className="card-actions justify-start">
-              <a className="sora font-semibold text-lg flex items-center gap-3 text-[#0C98EB]">
+              <a className="sora font-semibold text-base lg:text-lg flex items-center gap-3 text-[#0C98EB]">
                 View Project
                 <MdOutlineArrowForwardIos></MdOutlineArrowForwardIos>{" "}
               </a>
             </div>
           </div>
         </div>
-        <div className="rounded-xl bg-[#F0F8FF] w-[463px]">
+        <div className="rounded-xl bg-[#F0F8FF] w-[350px] lg:w-[463px]">
           <figure>
             <img
-              className="w-full h-[320px] rounded-xl"
+              className="w-full lg:h-[320px] rounded-xl"
               src="../../images/game.jpg"
               alt=""
             />
           </figure>
-          <div className="card-body p-6">
-            <h2 className="card-title sora font-semibold text-2xl text-[#072B4A] mb-4">
+          <div className="card-body p-4 lg:p-6">
+            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               Gamezone Game Launcher
             </h2>
-            <p className="sora font-normal text-base text-[#334155] mb-6">
+            <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
               Game Launcher is a sleek desktop application designed exclusively
               for gamers. It offers seamless access to your favorite games,
               customizable setti
             </p>
             <div className="card-actions justify-start">
-              <a className="sora font-semibold text-lg flex items-center gap-3 text-[#0C98EB]">
+              <a className="sora font-semibold text-base lg:text-lg flex items-center gap-3 text-[#0C98EB]">
                 View Project
                 <MdOutlineArrowForwardIos></MdOutlineArrowForwardIos>{" "}
               </a>
             </div>
           </div>
         </div>
-        <div className="rounded-xl bg-[#F0F8FF] w-[463px]">
+        <div className="rounded-xl bg-[#F0F8FF] w-[350px] lg:w-[463px]">
           <figure>
             <img
-              className="w-full h-[320px] rounded-xl"
+              className="w-full lg:h-[320px] rounded-xl"
               src="../../images/learn.jpg"
               alt=""
             />
           </figure>
-          <div className="card-body p-6">
-            <h2 className="card-title sora font-semibold text-2xl text-[#072B4A] mb-4">
+          <div className="card-body p-4 lg:p-6">
+            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               Learn Here
             </h2>
-            <p className="sora font-normal text-base text-[#334155] mb-6">
+            <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
               LearnHere is the platform that presents all the lessons from
               Beginner to Expert Level with live and recorded classes.
             </p>
             <div className="card-actions justify-start">
-              <a className="sora font-semibold text-lg flex items-center gap-3 text-[#0C98EB]">
+              <a className="sora font-semibold text-base lg:text-lg flex items-center gap-3 text-[#0C98EB]">
                 View Project
                 <MdOutlineArrowForwardIos></MdOutlineArrowForwardIos>{" "}
               </a>
             </div>
           </div>
         </div>
-        <div className="rounded-xl bg-[#F0F8FF] w-[463px]">
+        <div className="rounded-xl bg-[#F0F8FF] w-[350px] lg:w-[463px]">
           <figure>
             <img
-              className="rounded-xl h-[320px]"
+              className="rounded-xl lg:h-[320px]"
               src="../../images/website.jpg"
               alt=""
             />
           </figure>
-          <div className="card-body p-6">
-            <h2 className="card-title sora font-semibold text-2xl text-[#072B4A] mb-4">
+          <div className="card-body p-4 lg:p-6">
+            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               GoThruhike Website Redesign
             </h2>
-            <p className="sora font-normal text-base text-[#334155] mb-6">
+            <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
               Thruhike is the ultimate platform for discovering and sharing your
               favorite places and products. Our mission is to celebrate local
               business and inspire.
             </p>
             <div className="card-actions justify-start">
-              <a className="sora font-semibold text-lg flex items-center gap-3 text-[#0C98EB]">
+              <a className="sora font-semibold text-base lg:text-lg flex items-center gap-3 text-[#0C98EB]">
                 View Project
                 <MdOutlineArrowForwardIos></MdOutlineArrowForwardIos>{" "}
               </a>
             </div>
           </div>
         </div>
-        <div className="rounded-xl bg-[#F0F8FF] w-[463px]">
+        <div className="rounded-xl bg-[#F0F8FF] w-[350px] lg:w-[463px]">
           <figure>
             <img
-              className="w-full h-[320px] rounded-xl"
+              className="w-full lg:h-[320px] rounded-xl"
               src="../../images/game.jpg"
               alt=""
             />
           </figure>
-          <div className="card-body p-6">
-            <h2 className="card-title sora font-semibold text-2xl text-[#072B4A] mb-4">
+          <div className="card-body p-4 lg:p-6">
+            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               Gamezone Game Launcher
             </h2>
-            <p className="sora font-normal text-base text-[#334155] mb-6">
+            <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
               Game Launcher is a sleek desktop application designed exclusively
               for gamers. It offers seamless access to your favorite games,
               customizable setti
             </p>
             <div className="card-actions justify-start">
-              <a className="sora font-semibold text-lg flex items-center gap-3 text-[#0C98EB]">
+              <a className="sora font-semibold text-base lg:text-lg flex items-center gap-3 text-[#0C98EB]">
                 View Project
                 <MdOutlineArrowForwardIos></MdOutlineArrowForwardIos>{" "}
               </a>
             </div>
           </div>
         </div>
-        <div className="rounded-xl bg-[#F0F8FF] w-[463px]">
+        <div className="rounded-xl bg-[#F0F8FF] w-[350px] lg:w-[463px]">
           <figure>
             <img
-              className="w-full h-[320px] rounded-xl"
+              className="w-full lg:h-[320px] rounded-xl"
               src="../../images/learn.jpg"
               alt=""
             />
           </figure>
-          <div className="card-body p-6">
-            <h2 className="card-title sora font-semibold text-2xl text-[#072B4A] mb-4">
+          <div className="card-body p-4 lg:p-6">
+            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               Learn Here
             </h2>
-            <p className="sora font-normal text-base text-[#334155] mb-6">
+            <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
               LearnHere is the platform that presents all the lessons from
               Beginner to Expert Level with live and recorded classes.
             </p>
             <div className="card-actions justify-start">
-              <a className="sora font-semibold text-lg flex items-center gap-3 text-[#0C98EB]">
+              <a className="sora font-semibold text-base lg:text-lg flex items-center gap-3 text-[#0C98EB]">
                 View Project
                 <MdOutlineArrowForwardIos></MdOutlineArrowForwardIos>{" "}
               </a>

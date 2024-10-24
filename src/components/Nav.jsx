@@ -11,7 +11,7 @@ const Nav = () => {
               className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="white"
             >
               <path
                 strokeLinecap="round"
@@ -85,7 +85,7 @@ const Nav = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end hidden">
         <a className="z-10 flex gap-2 py-3 px-6 sora font-semibold bg-transparent border border-[#CBD5E1] rounded-xl text-white">
           <CiCalendar className="text-2xl"></CiCalendar>
           Get a Schedule
