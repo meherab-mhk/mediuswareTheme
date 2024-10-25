@@ -26,18 +26,19 @@ const Project = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1023,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           initialSlide: 2,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
     ],
@@ -54,7 +55,7 @@ const Project = () => {
             />
           </figure>
           <div className="card-body p-4 lg:p-6">
-            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
+            <h2 className="card-title sora font-semibold text-xl sm:text-lg lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               GoThruhike Website Redesign
             </h2>
             <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
@@ -79,7 +80,7 @@ const Project = () => {
             />
           </figure>
           <div className="card-body p-4 lg:p-6">
-            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
+            <h2 className="card-title sora font-semibold text-xl sm:text-lg lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               Gamezone Game Launcher
             </h2>
             <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
@@ -104,7 +105,7 @@ const Project = () => {
             />
           </figure>
           <div className="card-body p-4 lg:p-6">
-            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
+            <h2 className="card-title sora font-semibold text-xl sm:text-lg lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               Learn Here
             </h2>
             <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
@@ -128,7 +129,7 @@ const Project = () => {
             />
           </figure>
           <div className="card-body p-4 lg:p-6">
-            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
+            <h2 className="card-title sora font-semibold text-xl sm:text-lg lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               GoThruhike Website Redesign
             </h2>
             <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
@@ -153,7 +154,7 @@ const Project = () => {
             />
           </figure>
           <div className="card-body p-4 lg:p-6">
-            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
+            <h2 className="card-title sora font-semibold text-xl sm:text-lg lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               Gamezone Game Launcher
             </h2>
             <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">
@@ -178,7 +179,7 @@ const Project = () => {
             />
           </figure>
           <div className="card-body p-4 lg:p-6">
-            <h2 className="card-title sora font-semibold text-xl lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
+            <h2 className="card-title sora font-semibold text-xl sm:text-lg lg:text-2xl text-[#072B4A] mb-3 lg:mb-4">
               Learn Here
             </h2>
             <p className="sora font-normal text-sm lg:text-base text-[#334155] mb-4 lg:mb-6">

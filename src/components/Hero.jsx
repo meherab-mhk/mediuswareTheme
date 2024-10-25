@@ -1,13 +1,13 @@
 const Hero = () => {
   return (
-    <div className="hero lg:min-h-screen py-12 lg:py-[200px]">
-      <div className="hero-content text-center">
+    <div className="hero lg:min-h-screen py-12 sm:py-[72px] lg:py-[200px]">
+      <div className="hero-content sm:px-0 sm:mx-12  text-center">
         <div className="">
-          <h1 className="sora font-bold text-white text-3xl lg:text-[96px] mb-8">
+          <h1 className="sora font-bold text-white text-3xl sm:text-5xl sm:leading-[60px] lg:text-[96px] lg:leading-[126px] mb-6 lg:mb-8">
             Transforming Your Ideas into{" "}
             <span className="text-[#2EB8A2]">Digital Outcomes</span>{" "}
           </h1>
-          <p className="sora text-xs lg:text-lg font-medium text-white mb-16">
+          <p className="sora text-xs sm:text-sm lg:text-lg font-medium text-white mb-8 lg:mb-16">
             Our global journey needs your expertise. Align with our brand ethos
             and help us reach new heights across the world.
           </p>

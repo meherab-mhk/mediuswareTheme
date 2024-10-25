@@ -1,12 +1,13 @@
+import "./layout.css";
 const Work = () => {
   return (
-    <div className="lg:w-[1440px] mx-5 lg:mx-auto py-8 lg:py-[124px]">
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        <div className="col-span-1 lg:col-span-2">
-          <h3 className="sora text-[#072B4A] text-xl lg:text-[48px] font-semibold mb-4">
+    <div className="max-w-[1440px] mx-5 sm:mx-8 marginXY xl:mx-auto py-8 sm:py-[72px] lg:py-[124px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-6">
+        <div className="col-span-1 sm:col-span-2">
+          <h3 className="sora text-[#072B4A] text-xl sm:text-3xl lg:text-[48px] font-semibold mb-4">
             How We <span className="text-[#2EB8A2]">Work Togeother</span>
           </h3>
-          <p className="sora text-[#334155] text-xs lg:text-lg font-normal ">
+          <p className="sora text-[#334155] text-xs sm:text-base lg:text-lg font-normal ">
             Mediusware is a US-based software development company with unique
             access to premium developers & Designers. We follow a structured
             process to ensure project success. Our approach guarantees

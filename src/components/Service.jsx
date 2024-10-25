@@ -1,7 +1,8 @@
+import "./layout.css";
 const Service = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-center lg:w-[1440px] mx-5 lg:mx-auto gap-6 mb-12">
-      <div className="card bg-[#072B4A99] image-full w-[350px] lg:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl col-span-1">
+    <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 justify-center items-center max-w-[1440px] mx-5 sm:mx-8 marginXY xl:mx-auto gap-6 mb-12">
+      <div className="card bg-[#072B4A99] image-full w-full 2xl:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl col-span-1">
         <figure>
           <img
             src="../../images/software.jfif"
@@ -18,7 +19,7 @@ const Service = () => {
           </p>
         </div>
       </div>
-      <div className="card bg-[#072B4A99] image-full w-[350px] lg:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
+      <div className="card bg-[#072B4A99] image-full w-full 2xl:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
         <figure>
           <img src="../../images/web.jfif" alt="pc-img" className="w-full" />
         </figure>
@@ -32,7 +33,7 @@ const Service = () => {
           </p>
         </div>
       </div>
-      <div className="card bg-[#072B4A99] image-full w-[350px] lg:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
+      <div className="card bg-[#072B4A99] image-full w-full 2xl:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
         <figure>
           <img src="../../images/mobile.jfif" alt="pc-img" className="w-full" />
         </figure>
@@ -46,7 +47,7 @@ const Service = () => {
           </p>
         </div>
       </div>
-      <div className="card bg-[#072B4A99] image-full w-[350px] lg:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
+      <div className="card bg-[#072B4A99] image-full w-full 2xl:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
         <figure>
           <img
             src="../../images/ecommerce.jfif"
@@ -64,7 +65,7 @@ const Service = () => {
           </p>
         </div>
       </div>
-      <div className="card bg-[#072B4A99] image-full w-[350px] lg:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
+      <div className="card bg-[#072B4A99] image-full w-full 2xl:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
         <figure>
           <img src="../../images/uiux.jfif" alt="pc-img" className="w-full" />
         </figure>
@@ -78,7 +79,7 @@ const Service = () => {
           </p>
         </div>
       </div>
-      <div className="card bg-[#072B4A99] image-full w-[350px] lg:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
+      <div className="card bg-[#072B4A99] image-full w-full 2xl:w-[464px] h-[234px] lg:h-[364px] shadow-xl rounded-xl">
         <figure>
           <img src="../../images/api.jfif" alt="pc-img" className="w-full" />
         </figure>

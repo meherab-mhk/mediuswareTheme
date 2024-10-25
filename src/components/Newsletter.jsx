@@ -1,12 +1,13 @@
+import "./layout.css";
 const Newsletter = () => {
   return (
-    <div className="lg:w-[1440px] mx-5 lg:mx-auto my-8 lg:my-[124px] ">
+    <div className="max-w-[1440px] mx-5 sm:mx-8 marginXY xl:mx-auto my-8 sm:my-[72px] lg:my-[124px] ">
       <div className=" bg-[#072B4A] rounded-xl p-4 lg:p-16 flex flex-col lg:flex-row justify-center lg:justify-between items-center">
         <div className="text-center lg:text-start">
-          <h3 className="sora text-white text-lg lg:text-3xl font-semibold mb-2">
+          <h3 className="sora text-white text-lg sm:text-xl lg:text-3xl font-semibold mb-2">
             Want to know what we are up to?
           </h3>
-          <p className="sora text-white text-xs lg:text-lg font-normal mb-6">
+          <p className="sora text-white text-xs sm:text-lg font-normal mb-6">
             Subscribe to our newsletter.
           </p>
         </div>

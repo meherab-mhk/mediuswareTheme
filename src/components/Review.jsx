@@ -25,29 +25,30 @@ const Review = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1023,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           initialSlide: 2,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
     ],
   };
   return (
     <div className="bg-[#F0F8FF]">
-      <div className="lg:w-[1440px] mx-5 lg:mx-auto py-8 lg:py-[124px]">
-        <h3 className="text-center sora font-semibold text-xl lg:text-5xl text-[#072B4A] mb-4 lg:mb-6">
+      <div className="max-w-[1440px] mx-5 sm:mx-8 xl:mx-auto py-8 sm:py-[72px] lg:py-[124px]">
+        <h3 className="text-center sora font-semibold text-xl sm:text-3xl lg:text-5xl text-[#072B4A] mb-4 lg:mb-6">
           What the People <span className="text-[#2EB8A2]">Are Saying</span>{" "}
         </h3>
-        <p className="text-center sora text-[#334155] text-sm lg:text-lg font-normal mb-6 lg:mb-16">
+        <p className="text-center sora text-[#334155] text-sm sm:text-base lg:text-lg font-normal mb-6 lg:mb-16">
           Explore success stories from clients across a range of industries,
           spanning from techpreneurs and start-{" "}
           <br className="hidden lg:block" />
